@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-descriptor name="AIQ Integration Adapter">
+    <requiredProperties>
+        <requiredProperty key="aiqUrl">
+            <defaultValue>https://dev.appeariq.com/api/</defaultValue>
+        </requiredProperty>
+        <requiredProperty key="aiqOrgname"/>
+        <requiredProperty key="aiqUsername"/>
+        <requiredProperty key="aiqPassword"/>
+    </requiredProperties>
+    <fileSets>
+        <fileSet filtered="true" packaged="true" encoding="utf-8">
+            <directory>src/main/java</directory>
+            <includes>
+                <include>**/*.java</include>
+            </includes>
+        </fileSet>
+        <fileSet filtered="true" packaged="false" encoding="utf-8">
+            <directory>src/main/resources</directory>
+            <includes>
+                <include>**/*</include>
+            </includes>
+        </fileSet>
+        <fileSet filtered="true" packaged="false" encoding="utf-8">
+            <directory>src/main</directory>
+            <includes>
+                <include>*.properties</include>
+                <include>*.xml</include>
+            </includes>
+        </fileSet>
+        <fileSet filtered="true" packaged="false" encoding="utf-8">
+            <directory>src/main/webapp</directory>
+            <includes>
+                <include>**/*</include>
+            </includes>
+        </fileSet>
+        <fileSet filtered="true" packaged="true" encoding="utf-8">
+            <directory>src/test/java</directory>
+            <includes>
+                <include>**/*.java</include>
+            </includes>
+        </fileSet>
+        <fileSet filtered="true" packaged="true" encoding="utf-8">
+            <directory>src/test/resources</directory>
+            <includes>
+                <include>**/*</include>
+            </includes>
+        </fileSet>
+    </fileSets>
+</archetype-descriptor>
