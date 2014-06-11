@@ -34,7 +34,7 @@ public class IntegrationAdapterTest {
                     new DocumentReference("id1", "MyDocument", 1L),
                     new DocumentReference("id2", "MyDocument", 1L),
                 },
-                integrationAdapter.findByUserAndDevice("user1", "device1").toArray());
+                integrationAdapter.findByUser("user1").toArray());
     }
 
     /**

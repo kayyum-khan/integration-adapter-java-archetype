@@ -16,7 +16,7 @@ public class IntegrationAdapterImpl extends IntegrationAdapterBase {
      * TODO Dummy sample, replace me
      */
     @Override
-    public List<DocumentReference> findByUserAndDevice(String userId, String deviceId) {
+    public List<DocumentReference> findByUser(String userId) {
         MyDocument document1 = new MyDocument("id1", 1, "value1");
         MyDocument document2 = new MyDocument("id2", 1, "value2");
 
