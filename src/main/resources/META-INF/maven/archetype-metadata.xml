@@ -7,7 +7,7 @@
         <requiredProperty key="aiqOrgname"/>
         <requiredProperty key="aiqUsername"/>
         <requiredProperty key="aiqPassword"/>
-        <requiredProperty key="aiqSolutionId"/>
+        <requiredProperty key="aiqSolution"/>
     </requiredProperties>
     <fileSets>
         <fileSet filtered="true" packaged="true" encoding="utf-8">
