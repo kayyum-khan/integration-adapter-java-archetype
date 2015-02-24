@@ -6,7 +6,7 @@ The archetype is used to create a boilerplate project for a new AIQ8 Integration
 Version
 -------
 
-2.0.0
+2.2.0
 
 Dependencies
 ------------
